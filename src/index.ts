@@ -24,3 +24,10 @@ console.log(path.extname(__dirname));
 
 //Create Path Object
 console.log(path.parse(__filename));
+
+//File name
+
+console.log(path.parse(__filename).base);
+
+//Conconate two paths
+console.log(path.join(__dirname,"shiv","new.html"));
